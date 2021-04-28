@@ -118,7 +118,7 @@ ul:hover>li{
     box-sizing: border-box;
     height: 40vh;
   }
-  
+
   .box {
     flex: 1;
     overflow: hidden;
@@ -128,14 +128,22 @@ ul:hover>li{
     line-height: 0;
   }
   
-  .box > img {
+  /* .box > img {
+    width: 200%;
+    height: calc(100% - 10vh);
+    object-fit: cover; 
+    transition: .5s;
+    cursor: pointer;
+  }  */
+  
+  .box > a > img {
     width: 200%;
     height: calc(100% - 10vh);
     object-fit: cover; 
     transition: .5s;
     cursor: pointer;
   }
-  
+
   .box > span {
     font-size: 3.1vh;
     display: block;
