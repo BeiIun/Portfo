@@ -190,3 +190,10 @@ footer p{
     color:#C7C7C7;
     padding-top: 2em;
 }
+
+@media screen and (max-width: 480px) {
+  footer #reseau_sociaux .fab {
+    padding: 13px;
+    font-size: 30px;
+}
+}
