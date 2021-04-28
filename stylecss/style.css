@@ -195,5 +195,15 @@ footer p{
   footer #reseau_sociaux .fab {
     padding: 13px;
     font-size: 30px;
-}
+  }
+  #body{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px
+  }
+  #yo{
+    padding-left: 0px;
+    margin: auto;
+    font-size: 4vh;
+  }
 }
