@@ -17,12 +17,7 @@ header{
   padding-left: 15px;
   font-family: sans-serif;
 }
-@media screen and (max-width: 540px) {
-  #yo{
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
+
 #monu{
   padding-left: 5px;
   padding-top: 5px;
@@ -218,4 +213,13 @@ footer p{
   }
   
 
+}
+@media screen and (max-width: 540px) {
+  #yo{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #monu {
+    font-size: 4vh;
+  }
 }
